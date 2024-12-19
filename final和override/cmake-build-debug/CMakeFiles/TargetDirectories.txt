@@ -1,0 +1,3 @@
+/cygdrive/d/@DevCode/C++11/final和override/cmake-build-debug/CMakeFiles/finaloverride.dir
+/cygdrive/d/@DevCode/C++11/final和override/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/@DevCode/C++11/final和override/cmake-build-debug/CMakeFiles/rebuild_cache.dir
