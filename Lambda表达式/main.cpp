@@ -77,6 +77,9 @@ int main()
     {
         return a;
     },placeholders::_1);
+    //placeholders::_1 来自于 std::placeholders 命名空间，
+    // 它是一个占位符，表示在后续调用这个通过 bind 生成的新可调用对象时，
+    // 调用者传入的第一个参数会被放置到这个占位符所在的位置。
     // 函数调用
     cout << f1(100) << endl;
     cout << f2(200) << endl;
