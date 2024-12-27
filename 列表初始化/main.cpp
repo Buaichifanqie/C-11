@@ -176,27 +176,116 @@ using namespace std;
 //}
 
 
-#include <iostream>
-#include <string>
+//#include <iostream>
+//#include <string>
+//using namespace std;
+//
+//struct T1
+//{
+//    int x;
+//    double y;
+//private:
+//    int z;
+//};
+//
+//struct T2
+//{
+//    T1 t1;
+//    long x1;
+//    double y1;
+//};
+//
+//int main()
+//{
+//    T2 t2{ {}, 520, 13.14 };
+//    return 0;
+//}
+
+//#include<iostream>
+//#include<string>
+//using namespace std;
+//
+//void traversal(std::initializer_list<int>a)
+//{
+//    for(auto it=a.begin();it!=a.end();it++)
+//    {
+//        cout<<*it<<" ";
+//    }
+//    cout<<endl;
+//}
+//
+//int main()
+//{
+//    initializer_list<int>list;
+//    cout << "current list size: " << list.size() << endl;
+//    traversal(list);
+//
+//    list={1,2,3,4,5,6,7,8,9,10};
+//    cout << "current list size: " << list.size() << endl;
+//    traversal(list);
+//    cout << endl;
+//
+//    list = { 1,3,5,7,9 };
+//    cout << "current list size: " << list.size() << endl;
+//    traversal(list);
+//    cout << endl;
+//
+//    ////////////////////////////////////////////////////
+//    ////////////// 直接通过初始化列表传递数据 //////////////
+//    ////////////////////////////////////////////////////
+//    traversal({ 2, 4, 6, 8, 0 });
+//    cout << endl;
+//
+//    traversal({ 11,12,13,14,15,16 });
+//    cout << endl;
+//
+//}
+
+////运行结果：
+//current list size: 0
+//
+//current list size: 10
+//1 2 3 4 5 6 7 8 9 10
+//
+//current list size: 5
+//1 3 5 7 9
+//
+//2 4 6 8 0
+//
+//11 12 13 14 15 16
+
+
+#include<iostream>
 using namespace std;
-
-struct T1
+#include<string>
+#include<vector>
+class Test
 {
-    int x;
-    double y;
+public:
+    Test(std::initializer_list<string> list)
+    {
+        for(auto it=list.begin();it!=list.end();it++)
+        {
+            cout<<*it<<" ";
+            m_names.push_back(*it);
+        }
+        cout<<endl;
+    }
 private:
-    int z;
-};
-
-struct T2
-{
-    T1 t1;
-    long x1;
-    double y1;
+    vector<string>m_names;
 };
 
 int main()
 {
-    T2 t2{ {}, 520, 13.14 };
+    Test t({"aoqi","nihao","longyan"});
+    Test t1({"hello","gan","aoli","xiuer"});
     return 0;
 }
+
+
+//输出结果
+//aoqi nihao longyan
+//hello gan aoli xiuer
+
+
+
