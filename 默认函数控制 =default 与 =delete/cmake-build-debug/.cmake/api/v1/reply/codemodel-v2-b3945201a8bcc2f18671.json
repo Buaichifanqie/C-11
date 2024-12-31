@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "__default___delete",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "__default___delete::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-__default___delete-Debug-9ba54626d266db9ef8ca.json",
+					"name" : "__default___delete",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/cygdrive/d/@DevCode/C++11/\u9ed8\u8ba4\u51fd\u6570\u63a7\u5236 =default \u4e0e =delete/cmake-build-debug",
+		"source" : "/cygdrive/d/@DevCode/C++11/\u9ed8\u8ba4\u51fd\u6570\u63a7\u5236 =default \u4e0e =delete"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
