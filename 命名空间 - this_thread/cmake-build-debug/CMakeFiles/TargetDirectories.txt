@@ -1,0 +1,3 @@
+/cygdrive/d/@DevCode/C++11/命名空间 - this_thread/cmake-build-debug/CMakeFiles/___this_thread.dir
+/cygdrive/d/@DevCode/C++11/命名空间 - this_thread/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/@DevCode/C++11/命名空间 - this_thread/cmake-build-debug/CMakeFiles/rebuild_cache.dir
