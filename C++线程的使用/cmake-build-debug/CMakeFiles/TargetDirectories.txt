@@ -1,0 +1,3 @@
+/cygdrive/d/@DevCode/C++11/C++线程的使用/cmake-build-debug/CMakeFiles/C__.dir
+/cygdrive/d/@DevCode/C++11/C++线程的使用/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/@DevCode/C++11/C++线程的使用/cmake-build-debug/CMakeFiles/rebuild_cache.dir
