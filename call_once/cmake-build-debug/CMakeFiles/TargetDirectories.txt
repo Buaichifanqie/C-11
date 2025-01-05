@@ -1,0 +1,3 @@
+/cygdrive/d/@DevCode/C++11/call_once/cmake-build-debug/CMakeFiles/call_once.dir
+/cygdrive/d/@DevCode/C++11/call_once/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/@DevCode/C++11/call_once/cmake-build-debug/CMakeFiles/rebuild_cache.dir
